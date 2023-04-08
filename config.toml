@@ -1,6 +1,6 @@
 baseurl = "https://mr-ijij.github.io"
-DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+DefaultContentLanguage = "ja"
+title = "ijij log"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -12,8 +12,8 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  # homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  # subtitle = "Build a beautiful and simple website in minutes"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
