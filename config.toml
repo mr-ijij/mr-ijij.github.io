@@ -12,7 +12,7 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-  # homeTitle = "ijij log" # Set a different text for the header on the home page
+  homeTitle = "ijij log" # Set a different text for the header on the home page
   # subtitle = "Build a beautiful and simple website in minutes"
   mainSections = ["post","posts"]
   logo = "img/1_ijij.png"
