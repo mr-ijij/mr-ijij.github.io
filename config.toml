@@ -1,5 +1,5 @@
 baseurl = "https://mr-ijij.github.io"
-DefaultContentLanguage = "ja"
+DefaultContentLanguage = "en"
 title = "ijij log"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
@@ -12,17 +12,17 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-  # homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  # homeTitle = "ijij log" # Set a different text for the header on the home page
   # subtitle = "Build a beautiful and simple website in minutes"
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
+  logo = "img/1_ijij.png"
+  favicon = "img/favicon_ijij.ico"
+  dateFormat = "April 8, 2023"
   commit = false
   rss = true
   comments = true
   readingTime = true
-  wordCount = true
+  # wordCount = true
   useHLJS = true
   socialShare = true
   delayDisqus = true
@@ -55,32 +55,32 @@ pygmentsCodefencesGuessSyntax = true
     weight = 1
 
 [[menu.main]]
-    name = "About"
+    name = "AboutMe"
     url = "page/about/"
     weight = 3
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
+    identifier = "other"
+    name = "Other"
     weight = 2
 
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Big Image Sample"
+#     url = "post/2017-03-07-bigimg-sample"
+#     weight = 1
 
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Math Sample"
+#     url = "post/2017-03-05-math-sample"
+#     weight = 2
 
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Code Sample"
+#     url = "post/2016-03-08-code-sample"
+#     weight = 3
 
 [[menu.main]]
     name = "Tags"
