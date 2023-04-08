@@ -1,11 +1,24 @@
 ---
 title: About me
-subtitle: 
+subtitle: 経歴とか
 comments: false
 ---
 
-準備中
+#### 職業
+- Web Applicationの開発
+    - バックエンド
+        - CakePHP4
+        - PHP
+    - フロントエンド
+        - Next.js
 
-### my history
+#### 趣味
+- 読書
+- 筋トレ
 
-準備中
+### 生まれ年
+1998
+
+#### 経歴
+- 4年間ぐらいバックエンドとフロントやってる
+- バックエンド言語は基本PHP

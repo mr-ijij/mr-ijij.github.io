@@ -20,7 +20,7 @@ pygmentsCodefencesGuessSyntax = true
   dateFormat = "2006-01-02"
   commit = false
   rss = true
-  comments = true
+  # comments = true
   readingTime = true
   # wordCount = true
   useHLJS = true
@@ -50,22 +50,17 @@ pygmentsCodefencesGuessSyntax = true
   stackoverflow = "users/14393978/ijij"
 
 [[menu.main]]
-    name = "Log"
-    url = ""
-    weight = 1
-
-[[menu.main]]
     name = "AboutMe"
     url = "page/about/"
     weight = 3
 
-[[menu.main]]
-    identifier = "other"
-    name = "Other"
-    weight = 2
+# [[menu.main]]
+#     identifier = "other"
+#     name = "Other"
+#     weight = 2
 
 # [[menu.main]]
-#     parent = "samples"
+#     parent = "other"
 #     name = "Big Image Sample"
 #     url = "post/2017-03-07-bigimg-sample"
 #     weight = 1
