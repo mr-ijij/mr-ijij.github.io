@@ -1,4 +1,9 @@
-```
+---
+title: 【読書記録】
+date: 2023-04-13
+tags: ["Book"]
+---
+
 ### 情報
 - タイトル: 
 - 著者: 
@@ -17,6 +22,7 @@
 ### 書評
 参考: [https://www.lib.u-ryukyu.ac.jp/lib_uploadfile/learning_support/2021/2021-009_syohyo.pdf]
 
+### 紹介
+
 ### お気に入り度
 ⭐️
-```
