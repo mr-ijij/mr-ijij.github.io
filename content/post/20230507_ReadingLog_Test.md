@@ -31,6 +31,12 @@ tags: ["Book", "Test"]
 - テストへのドメイン知識の汚染（準備の時にロジックを持ってくること）
 - プロダクション・コードへの汚染
 
+### 感想
+再読しようと思った。
+
+著者のブログがあるようなので、時間ができたら読んでみよう。
+- https://enterprisecraftsmanship.com/posts
+- https://unittestingcourse.com/
 
 ### お気に入り度
 ⭐️⭐️⭐️⭐️⭐️
