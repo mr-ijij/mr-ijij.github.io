@@ -1,13 +1,10 @@
 ---
-const { platform, username } = Astro.props;
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
 ---
-<a href={`https://www.${platform}.com/${username}`}>{platform}</a>
+<a href={'https://github.com/mr-ijij'} class={'footer-social-link'}><GitHubIcon className={'footer-social-icon'}/></a>
+<a href={'https://twitter.com/mr_ijij'} class={'footer-social-link'}><TwitterIcon className={'footer-social-icon'} /></a>
 
-<style>
-    a {
-        padding: 0.5rem 1rem;
-        color: white;
-        background-color: #4c1d95;
-        text-decoration: none;
-    }
-</style>
+<script>
+    import "./style/footer.css";
+</script>

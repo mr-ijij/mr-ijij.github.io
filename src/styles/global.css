@@ -50,10 +50,6 @@ html.dark {
     text-transform: uppercase;
 }
 
-.nav-links a:hover, a:focus {
-    background-color: #ff9776;
-}
-
 .expanded {
     display: unset;
 }
