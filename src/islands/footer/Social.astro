@@ -2,9 +2,11 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 ---
-<a href={'https://github.com/mr-ijij'} class={'footer-social-link'}><GitHubIcon className={'footer-social-icon'}/></a>
-<a href={'https://twitter.com/mr_ijij'} class={'footer-social-link'}><TwitterIcon className={'footer-social-icon'} /></a>
-
-<script>
-    import "./style/footer.css";
-</script>
+<div class={'footer-social-box'}>
+    <a href={'https://github.com/mr-ijij'} class={'footer-social-link'} target="_blank">
+        <GitHubIcon className={'footer-social-icon'} style={{fill: "white"}}/>
+    </a>
+    <a href={'https://twitter.com/mr_ijij'} class={'footer-social-link'} target="_blank">
+        <TwitterIcon className={'footer-social-icon'} style={{fill: "white"}}/>
+    </a>
+</div>
