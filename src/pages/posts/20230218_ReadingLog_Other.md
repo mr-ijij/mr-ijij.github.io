@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】 バカと無知
 date: 2023-02-18
 tags: ["Book", "Other"]

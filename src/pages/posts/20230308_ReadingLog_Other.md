@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】 バガボンド
 date: 2023-02-19
 tags: ["Book", "Other", "Comic"]

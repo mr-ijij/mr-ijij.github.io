@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】シンプルで合理的な人生設計
 date: 2023-04-04
 tags: ["Book", "Other"]

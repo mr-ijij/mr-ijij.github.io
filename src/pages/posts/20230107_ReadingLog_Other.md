@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】 英文法の鬼100則
 date: 2023-01-07
 tags: ["Book", "Other", "English"]

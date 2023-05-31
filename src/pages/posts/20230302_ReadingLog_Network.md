@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】 Linuxで動かしながら学ぶTCP/IPネットワーク入門
 date: 2023-03-02
 tags: ["Book", "Network"]

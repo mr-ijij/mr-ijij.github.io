@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】中学生からの作文技術
 date: 2023-04-16
 tags: ["Book", "Other"]

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】単体テストの考え方/使い方
 date: 2023-05-07
 tags: ["Book", "UT"]

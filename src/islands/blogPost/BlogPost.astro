@@ -1,0 +1,5 @@
+---
+import './style/blogPost.css'
+const { frontmatter, url } = Astro.props;
+---
+<li><a href={url} class="blog-post-link">{frontmatter.title} （{frontmatter.date.slice(0, 10)}）</a></li>

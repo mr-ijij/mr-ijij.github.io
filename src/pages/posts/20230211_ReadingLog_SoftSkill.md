@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】 「技術書」の読書術
 date: 2023-02-11
 tags: ["Book", "SoftSkill"]

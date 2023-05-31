@@ -1,5 +1,5 @@
 ---
-import BlogPost from '../../islands/BlogPost.astro';
+import BlogPost from '../../islands/blogPost/BlogPost.astro';
 import App from '../../layouts/App.astro';
 
 export async function getStaticPaths() {
@@ -17,13 +17,12 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.params;
 const { posts } = Astro.props;
-const filteredPosts = posts.filter((post) => post.frontmatter.tags.includes(tag));
 ---
 
 
 <App pageTitle={tag}>   
     <p>Posts tagged with {tag}</p>
     <ul>
-        {posts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title}/>)}
+        {posts.map((post) => <BlogPost url={post.url} frontmatter={post.frontmatter}/>)}
     </ul>
 </App>

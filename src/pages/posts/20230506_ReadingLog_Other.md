@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】今を生きる思想 ショーペンハウアー 欲望にまみれた世界を生き抜く
 date: 2023-05-06
 tags: ["Book", "Other"]

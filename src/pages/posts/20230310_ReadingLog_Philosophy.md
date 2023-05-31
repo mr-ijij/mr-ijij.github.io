@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】 情熱プログラマー
 date: 2023-03-10
 tags: ["Book", "Philosophy"]

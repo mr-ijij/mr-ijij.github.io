@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】 ちょうぜつソフトウェア設計入門
 date: 2023-02-08
 tags: ["Book", "Design"]
