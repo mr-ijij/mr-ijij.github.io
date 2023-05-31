@@ -1,32 +1,66 @@
 ---
 import App from '../../layouts/App.astro';
 const allPosts = await Astro.glob('../posts/*.md');
-const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
+
+class Tag {
+    name: string;
+    count: number;
+
+    constructor(name) {
+        this.name = name;
+        this.count = 1;
+    }
+
+    countUp() {
+        this.count++;
+    }
+}
+
+class TagList {
+    tags: Tag[];
+
+    constructor() {
+        this.tags = [];
+    }
+
+    addTag(tagName) {
+        if (this.tags.some(tag => tag.name === tagName)) {
+            this.tags.find(tag => tag.name === tagName).countUp();
+        } else {
+            this.tags.push(new Tag(tagName));
+        }
+    }
+
+    sortAlphabetAsc() {
+        this.tags.sort((a, b) => {
+            if (a.name < b.name) return -1;
+            if (a.name > b.name) return 1;
+        });
+    }
+}
+
+const tagList = new TagList();
+allPosts.map((post) => {
+    post.frontmatter.tags.forEach(tag => {
+        tagList.addTag(tag);
+    });
+});
+tagList.sortAlphabetAsc();
+
 const pageTitle = "Tag Index";
 ---
 <App pageTitle={pageTitle}>
     <ul>
         <div>
-            {tags.map((tag) => (
-                <p><a href={`/tags/${tag}`}>{tag}</a></p>
+            {tagList.tags.map((tag) => (
+                <p class="tag-line"><a href={`/tags/${tag.name}`}>{tag.name}（{tag.count}）</a></p>
             ))}
         </div>
     </ul>
 </App>
 
 <style>
-.tags {
-    display: flex; 
-    flex-wrap: wrap; 
-    margin: 0 auto;  
-}
-
-.tag {
-    margin: 0.25em;
-    border: dotted 1px #a1a1a1;
-    border-radius: .5em;
-    padding: .5em 1em;
-    font-size: 1.15em;
-    background-color: #F8FCFD;
+.tag-line {
+    margin: 0 0 0.5rem 0;
 }
 </style>
