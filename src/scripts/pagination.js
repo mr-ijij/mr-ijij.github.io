@@ -1,6 +1,4 @@
-const paginationNumbers = document.getElementById("pagination-numbers");
-const paginatedList = document.getElementById("paginated-list");
-const listItems = paginatedList.querySelectorAll("li");
+const listItems = document.getElementById("paginated-list").querySelectorAll("li");
 const nextButton = document.getElementById("next-button");
 const prevButton = document.getElementById("prev-button");
 
@@ -18,11 +16,11 @@ const appendPageNumber = (index) => {
     pageNumber.innerHTML = index;
     pageNumber.setAttribute("page-index", index);
     pageNumber.setAttribute("aria-label", "Page " + index);
-    paginationNumbers.appendChild(pageNumber);
+    document.getElementById("pagination-numbers").appendChild(pageNumber);
 };
 const getPaginationNumbers = () => {
     for (let i = 1; i <= pageCount; i++) {
-    appendPageNumber(i);
+        appendPageNumber(i);
     }
 };
 
@@ -65,10 +63,10 @@ window.addEventListener("load", () => {
     setCurrentPage(page);
 
     prevButton.addEventListener("click", () => {
-    setCurrentPage(currentPage - 1);
+        setCurrentPage(currentPage - 1);
     });
     nextButton.addEventListener("click", () => {
-    setCurrentPage(currentPage + 1);
+        setCurrentPage(currentPage + 1);
     });
     document.querySelectorAll(".pagination-number").forEach((button) => {
     const pageIndex = Number(button.getAttribute("page-index"));
@@ -78,8 +76,6 @@ window.addEventListener("load", () => {
         });
     }
     });
-
-    paginatedList.style.display = "block";
 });
 
 const disableButton = (button) => {
