@@ -14,7 +14,7 @@ allPosts.sort((a, b) => {
 });
 ---
 <App pageTitle={pageTitle}>
-  <ul id="paginated-list" style="display: none;">
+  <ul id="paginated-list">
     {allPosts.map((post) => <BlogPost url={post.url} frontmatter={post.frontmatter} />)}
   </ul>
 
