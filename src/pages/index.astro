@@ -14,7 +14,6 @@ allPosts.sort((a, b) => {
 });
 ---
 <App pageTitle={pageTitle}>
-  <meta name="google-site-verification" content="rCx0hwxaFn5VTI0OGbULTbMj0ZWd0tha7pGvuaTQqvk" />
   <ul id="paginated-list">
     {allPosts.map((post) => <BlogPost url={post.url} frontmatter={post.frontmatter} />)}
   </ul>
