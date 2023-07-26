@@ -11,8 +11,6 @@ tags: ["Book", "Network"]
 - 出版社: 日経BP
 - Amazonのurl: https://amzn.asia/d/6JztZlR
 
-- 読書開始日: 2023/2/9
-- 読書終了日: 2023/07/24
 - 通読回数: 2
 
 ### 感想
