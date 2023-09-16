@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】世界はなぜ地獄になるのか
-date: 2023-07-24
+date: 2023-09-14
 tags: ["Book", "Other"]
 ---
 
