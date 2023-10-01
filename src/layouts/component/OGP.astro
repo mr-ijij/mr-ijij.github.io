@@ -19,7 +19,7 @@ const url = Astro.url.pathname;
 <meta property="og:type" content={'article'} />
 <meta property="og:url" content={url} />
 <meta property="og:locale" content={'ja'} />
-<meta property="og:image" content={image} />
+<meta property="og:image" content={`https://mr-ijij.github.io${image}`} />
 <meta property="og:image:alt" content='og image' />
 <meta property="og:site_name" content='ijij log' />
 
@@ -28,5 +28,5 @@ const url = Astro.url.pathname;
 <meta name="twitter:site" content="ijij log" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={image} />
+<meta name="twitter:image" content={`https://mr-ijij.github.io${image}`} />
 <meta name="twitter:image:alt" content='og image' />
