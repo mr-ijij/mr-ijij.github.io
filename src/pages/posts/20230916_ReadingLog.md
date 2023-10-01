@@ -3,6 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】 情熱プログラマー
 date: 2023-09-16
 tags: ["Book", "Philosophy"]
+image: /ogp/651929ea624384.27457252651929ea6243d8.68306006.jpg
 ---
 
 ### 情報
@@ -10,7 +11,7 @@ tags: ["Book", "Philosophy"]
 - 著者: Chad Fowler
 - 訳: でびあんぐる
 - 出版社: オーム社
-- Amazonのurl:  [https://amzn.asia/d/5rVA0hy:title]
+- Amazonのurl:  [https://amzn.asia/d/5rVA0hy]
 
 - 読書開始日: 2023/9/16
 - 読書終了日:  2023/9/16
