@@ -90,11 +90,12 @@ const setCurrentPage = (pageNum) => {
         }
     });
 
-    if (params.has("page")) {
-        params.set("page", String(pageNum));
+    if (pageNum === 1) {
+        params.delete("page");
     } else {
         params.set("page", String(pageNum));
     }
+
     url.search = params.toString();
     window.history.replaceState({}, '', url);
 };
