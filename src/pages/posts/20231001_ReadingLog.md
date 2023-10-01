@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】世界一細かすぎる筋トレ栄養事典
 date: 2023-10-01
 tags: ["Book", "Other"]
-image: /ogp/7C5E2C75-061B-4AE5-B065-AC95BD4EFF8D.jpg
+image: /ogp/651991e11d9a22.83300305651991e11d9b94.65532795.jpg
 ---
 
 ### 情報
