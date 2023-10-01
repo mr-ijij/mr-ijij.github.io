@@ -2,7 +2,17 @@
 import Header from '../islands/header/Header.astro';
 import Footer from '../islands/footer/Footer.astro';
 import '../styles/global.css';
+import OGP from './component/OGP.astro';
+
+interface Props {
+	pageTitle: string;
+	pageDescription?: string;
+	pageImage?: string;
+}
+
 const pageTitle = Astro.props.pageTitle || 'ijij log';
+const pageDescription = Astro.props.pageDescription || '';
+const pageImage = Astro.props.pageImage || '';
 ---
 <!DOCTYPE html>
 <html lang="ja">
@@ -13,6 +23,8 @@ const pageTitle = Astro.props.pageTitle || 'ijij log';
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
         <title>{pageTitle}</title>
+
+        <OGP title={pageTitle} description={pageDescription} image={pageImage} />
     </head>
     <body>
         <Header />
