@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】人生は攻略できる
 date: 2023-09-30
 tags: ["Book", "Other"]
-img: /ogp/7C5E2C75-061B-4AE5-B065-AC95BD4EFF8D.jpg
+image: /ogp/7C5E2C75-061B-4AE5-B065-AC95BD4EFF8D.jpg
 ---
 
 ### 情報
