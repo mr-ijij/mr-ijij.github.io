@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 【読書記録】
+title: 【読書記録】デザインされたギャンブル依存症
 date: 2023-11-04
 tags: ["Book", "Other"]
 image: /ogp/654633830832a6.34848927654633830833c5.13178379.jpg
