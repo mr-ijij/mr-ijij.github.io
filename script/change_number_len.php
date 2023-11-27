@@ -1,7 +1,7 @@
 <?php
 
-$start_number = 14;
-$file_name = "./src/pages/posts/20231122_ReadingLog.md";
+$file_name = "./src/pages/posts/" . $argv[1];
+$start_number = $argv[2];
 $current_number = $start_number;
 
 // ファイルの内容を読み込む
