@@ -111,67 +111,67 @@ image: /ogp/65598953df9612.1351676565598953df96f5.61195088.jpg
 #### Check sheet
 <h4>素早く伝わる構成になっているか</h4>
 <ul>
-  <li><input type="checkbox" id="point1"><label for="point1">伝えるべき重要ポイントに落ち度はないか？</label></li>
-  <li><input type="checkbox" id="point2"><label for="point2">適当な段落に分かれているか？</label></li>
-  <li><input type="checkbox" id="point3"><label for="point3">文章の冒頭に主要段落が置かれているか？</label></li>
-  <li><input type="checkbox" id="point4"><label for="point4">途中の段落は、文章の最終目標を適切に支援しているか？</label></li>
-  <li><input type="checkbox" id="point5"><label for="point5">文章の目的と無関係で不要な段落はないか？</label></li>
-  <li><input type="checkbox" id="point6"><label for="point6">最後の段落で文章の最終目標をまとめとして再度、提示できないか？</label></li>
-  <li><input type="checkbox" id="point7"><label for="point7">各段落の冒頭に主題文が置かれているか？</label></li>
-  <li><input type="checkbox" id="point8"><label for="point8">各段落の支援文は機能しているか？</label></li>
-  <li><input type="checkbox" id="point9"><label for="point9">各段落に主題文、支援文以外の不要な文はないか？</label></li>
+  <li><input type="checkbox" id="point1"><label for="point1"> 伝えるべき重要ポイントに落ち度はないか？</label></li>
+  <li><input type="checkbox" id="point2"><label for="point2"> 適当な段落に分かれているか？</label></li>
+  <li><input type="checkbox" id="point3"><label for="point3"> 文章の冒頭に主要段落が置かれているか？</label></li>
+  <li><input type="checkbox" id="point4"><label for="point4"> 途中の段落は、文章の最終目標を適切に支援しているか？</label></li>
+  <li><input type="checkbox" id="point5"><label for="point5"> 文章の目的と無関係で不要な段落はないか？</label></li>
+  <li><input type="checkbox" id="point6"><label for="point6"> 最後の段落で文章の最終目標をまとめとして再度、提示できないか？</label></li>
+  <li><input type="checkbox" id="point7"><label for="point7"> 各段落の冒頭に主題文が置かれているか？</label></li>
+  <li><input type="checkbox" id="point8"><label for="point8"> 各段落の支援文は機能しているか？</label></li>
+  <li><input type="checkbox" id="point9"><label for="point9"> 各段落に主題文、支援文以外の不要な文はないか？</label></li>
 </ul>
 
 <h4>読む気にさせるレイアウトになっているか？</h4>
 <ul>
-  <li><input type="checkbox" id="point10"><label for="point10">文字ベッタリで読み手をうんざりさせていないか？</label></li>
-  <li><input type="checkbox" id="point11"><label for="point11">改行や空白行で風通しを良くしているか？</label></li>
-  <li><input type="checkbox" id="point12"><label for="point12">文章内の「かたまり」を見やすく提示しているか？</label></li>
-  <li><input type="checkbox" id="point13"><label for="point13">親子関係・並列関係を見やすく提示しているか？</label></li>
-  <li><input type="checkbox" id="point14"><label for="point14">適当な「かたまり」ごとに見出しを使えないか？</label></li>
-  <li><input type="checkbox" id="point15"><label for="point15">文章に「斜め読み体制」をもたせたか？</label></li>
+  <li><input type="checkbox" id="point10"><label for="point10"> 文字ベッタリで読み手をうんざりさせていないか？</label></li>
+  <li><input type="checkbox" id="point11"><label for="point11"> 改行や空白行で風通しを良くしているか？</label></li>
+  <li><input type="checkbox" id="point12"><label for="point12"> 文章内の「かたまり」を見やすく提示しているか？</label></li>
+  <li><input type="checkbox" id="point13"><label for="point13"> 親子関係・並列関係を見やすく提示しているか？</label></li>
+  <li><input type="checkbox" id="point14"><label for="point14"> 適当な「かたまり」ごとに見出しを使えないか？</label></li>
+  <li><input type="checkbox" id="point15"><label for="point15"> 文章に「斜め読み体制」をもたせたか？</label></li>
 </ul>
 
 <h4>説得できる文章か？</h4>
 <ul>
-  <li><input type="checkbox" id="point16"><label for="point16">その文章全体として主張、意見は何か？</label></li>
-  <li><input type="checkbox" id="point17"><label for="point17">それを支える根拠は、いくつあり、どれとどれか？</label></li>
-  <li><input type="checkbox" id="point18"><label for="point18">「二つの弱点」補強しているか？</label></li>
-  <li><input type="checkbox" id="point19"><label for="point19">裏付けるデータや事実を提示したか？</label></li>
-  <li><input type="checkbox" id="point20"><label for="point20">疑り深い読み手を想定しているか？</label></li>
-  <li><input type="checkbox" id="point21"><label for="point21">用語や説明の難易度に関し、読み手の視点に立っているか？</label></li>
-  <li><input type="checkbox" id="point22"><label for="point22">特定の知人、友人の読み手を浮かべているか？</label></li>
-  <li><input type="checkbox" id="point23"><label for="point23">読み手の感情に配慮しているか？</label></li>
-  <li><input type="checkbox" id="point24"><label for="point24">自分の感情に任せて語順が激しくなっていないか？</label></li>
-  <li><input type="checkbox" id="point25"><label for="point25">自分の感情に任せて大げさな表現をしていないか？</label></li>
-  <li><input type="checkbox" id="point26"><label for="point26">適切な比喩を使えないか？</label></li>
+  <li><input type="checkbox" id="point16"><label for="point16"> その文章全体として主張、意見は何か？</label></li>
+  <li><input type="checkbox" id="point17"><label for="point17"> それを支える根拠は、いくつあり、どれとどれか？</label></li>
+  <li><input type="checkbox" id="point18"><label for="point18"> 「二つの弱点」補強しているか？</label></li>
+  <li><input type="checkbox" id="point19"><label for="point19"> 裏付けるデータや事実を提示したか？</label></li>
+  <li><input type="checkbox" id="point20"><label for="point20"> 疑り深い読み手を想定しているか？</label></li>
+  <li><input type="checkbox" id="point21"><label for="point21"> 用語や説明の難易度に関し、読み手の視点に立っているか？</label></li>
+  <li><input type="checkbox" id="point22"><label for="point22"> 特定の知人、友人の読み手を浮かべているか？</label></li>
+  <li><input type="checkbox" id="point23"><label for="point23"> 読み手の感情に配慮しているか？</label></li>
+  <li><input type="checkbox" id="point24"><label for="point24"> 自分の感情に任せて語順が激しくなっていないか？</label></li>
+  <li><input type="checkbox" id="point25"><label for="point25"> 自分の感情に任せて大げさな表現をしていないか？</label></li>
+  <li><input type="checkbox" id="point26"><label for="point26"> 適切な比喩を使えないか？</label></li>
 </ul>
 
 <h4>趣旨がスムーズに伝わるセンテンスになっているか？</h4>
 <ul>
-  <li><input type="checkbox" id="point27"><label for="point27">1センテンスの平均文字数は40字以下か？</label></li>
-  <li><input type="checkbox" id="point28"><label for="point28">「が」などで、センテンスを意味なく引っ張っていないか？</label></li>
-  <li><input type="checkbox" id="point29"><label for="point29">長い修飾節どうしの境界に読点を打っているか？</label></li>
-  <li><input type="checkbox" id="point30"><label for="point30">意味の区切りで読点を打っているか？</label></li>
-  <li><input type="checkbox" id="point31"><label for="point31">長い修飾語同士の境界に読点を打っているか？</label></li>
-  <li><input type="checkbox" id="point32"><label for="point32">語解防止に読点や区切り記号を使っているか？</label></li>
-  <li><input type="checkbox" id="point33"><label for="point33">同等な項目を並列表記しているか？</label></li>
-  <li><input type="checkbox" id="point34"><label for="point34">復数の節をそれぞれセンテンスに分割できないか？</label></li>
-  <li><input type="checkbox" id="point35"><label for="point35">何を指しているかが不明な代名詞はないか？</label></li>
-  <li><input type="checkbox" id="point36"><label for="point36">難解な用語や特殊語、略語は冒頭で説明したか？</label></li>
-  <li><input type="checkbox" id="point37"><label for="point37">否定文が思わぬ意味になっていないか？</label></li>
-  <li><input type="checkbox" id="point38"><label for="point38">程度を表す修飾語のかわりに数値表現できないか？</label></li>
-  <li><input type="checkbox" id="point39"><label for="point39">例を挙げられないか？</label></li>
-  <li><input type="checkbox" id="point40"><label for="point40">大分類ではなく、小分類でかけないか？</label></li>
-  <li><input type="checkbox" id="point41"><label for="point41">便利なキーワードを使いないか？</label></li>
+  <li><input type="checkbox" id="point27"><label for="point27"> 1センテンスの平均文字数は40字以下か？</label></li>
+  <li><input type="checkbox" id="point28"><label for="point28"> 「が」などで、センテンスを意味なく引っ張っていないか？</label></li>
+  <li><input type="checkbox" id="point29"><label for="point29"> 長い修飾節どうしの境界に読点を打っているか？</label></li>
+  <li><input type="checkbox" id="point30"><label for="point30"> 意味の区切りで読点を打っているか？</label></li>
+  <li><input type="checkbox" id="point31"><label for="point31"> 長い修飾語同士の境界に読点を打っているか？</label></li>
+  <li><input type="checkbox" id="point32"><label for="point32"> 語解防止に読点や区切り記号を使っているか？</label></li>
+  <li><input type="checkbox" id="point33"><label for="point33"> 同等な項目を並列表記しているか？</label></li>
+  <li><input type="checkbox" id="point34"><label for="point34"> 復数の節をそれぞれセンテンスに分割できないか？</label></li>
+  <li><input type="checkbox" id="point35"><label for="point35"> 何を指しているかが不明な代名詞はないか？</label></li>
+  <li><input type="checkbox" id="point36"><label for="point36"> 難解な用語や特殊語、略語は冒頭で説明したか？</label></li>
+  <li><input type="checkbox" id="point37"><label for="point37"> 否定文が思わぬ意味になっていないか？</label></li>
+  <li><input type="checkbox" id="point38"><label for="point38"> 程度を表す修飾語のかわりに数値表現できないか？</label></li>
+  <li><input type="checkbox" id="point39"><label for="point39"> 例を挙げられないか？</label></li>
+  <li><input type="checkbox" id="point40"><label for="point40"> 大分類ではなく、小分類でかけないか？</label></li>
+  <li><input type="checkbox" id="point41"><label for="point41"> 便利なキーワードを使いないか？</label></li>
 </ul>
 
 <h4>なめらかな文章になっているか？</h4>
 <ul>
-  <li><input type="checkbox" id="point42"><label for="point42">もっと削れる語はないか？</label></li>
-  <li><input type="checkbox" id="point43"><label for="point43">語順は自然か？</label></li>
-  <li><input type="checkbox" id="point44"><label for="point44">同音の繰り返しは解消したか？</label></li>
-  <li><input type="checkbox" id="point45"><label for="point45">丁寧に表現しているか</label></li>
+  <li><input type="checkbox" id="point42"><label for="point42"> もっと削れる語はないか？</label></li>
+  <li><input type="checkbox" id="point43"><label for="point43"> 語順は自然か？</label></li>
+  <li><input type="checkbox" id="point44"><label for="point44"> 同音の繰り返しは解消したか？</label></li>
+  <li><input type="checkbox" id="point45"><label for="point45"> 丁寧に表現しているか</label></li>
 </ul>
 
 
