@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "node ./tmp.js [Error: `dyld[39984]: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.71.dylib`]"
 date: 2023-03-13
-tags: ["Node"]
+tags: ["Node", "ErrorLog"]
 ---
 
 ### Error 内容
