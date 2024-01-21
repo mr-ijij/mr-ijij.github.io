@@ -6,6 +6,7 @@ import '../styles/pagination.css';
 
 const allPosts = await Astro.glob('../pages/posts/*.md');
 const pageTitle = 'ijij log';
+const pageDescription = 'Logの保管庫';
 
 allPosts.sort((a, b) => {
   const aDate = new Date(a.frontmatter.date);
@@ -13,7 +14,7 @@ allPosts.sort((a, b) => {
   return bDate.getTime() - aDate.getTime();
 });
 ---
-<App pageTitle={pageTitle}>
+<App pageTitle={pageTitle} pageDescription={pageDescription}>
   <ul id="paginated-list">
     {allPosts.map((post) => <BlogPost url={post.url} frontmatter={post.frontmatter} />)}
   </ul>
