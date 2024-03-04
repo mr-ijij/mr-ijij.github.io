@@ -3,6 +3,7 @@ import Header from '../islands/header/Header.astro';
 import Footer from '../islands/footer/Footer.astro';
 import '../styles/global.css';
 import OGP from './component/OGP.astro';
+import GATag from './component/GATag.astro';
 
 interface Props {
 	pageTitle: string;
@@ -27,6 +28,7 @@ const pageImage = Astro.props.pageImage || '';
         <title>{pageTitle}</title>
 
         <OGP title={pageTitle} description={pageDescription} image={pageImage} />
+        <GATag />
     </head>
     <body>
         <Header />
