@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 【読書記録】
+title: 【読書記録】なぜ私たちは燃え尽きてしまうのか
 date: 2024-04-06
 tags: ["Book", "Other"]
 image: /ogp/6610af6d916515.372220826610af6d916569.52164146.jpg
