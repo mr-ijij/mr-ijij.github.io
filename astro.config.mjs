@@ -5,5 +5,6 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mr-ijij.github.io',
-  integrations: [react(), sitemap()]
+  integrations: [react(), sitemap()],
+  trailingSlash: "never"
 });

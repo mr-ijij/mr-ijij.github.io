@@ -7,11 +7,13 @@ layout: ../layouts/Markdown.astro
 - Web Applicationの開発
     - バックエンド
         - CakePHP4
+        - Laravel
         - PHP
     - フロントエンド
         - Next.js
 
 #### 趣味
+- ポピュレーション・ワン（VRのゲーム）
 - 読書
 - 筋トレ
 
@@ -20,3 +22,6 @@ layout: ../layouts/Markdown.astro
 
 #### 経歴
 - バックエンドとフロントを5年ぐらい
+
+### その他
+開発の副業募集してます
