@@ -21,6 +21,11 @@ layout: ../layouts/Markdown.astro
 - 筋トレ
 - 学生時代は「お笑い」と「ベイングローリー(MOBAのゲーム)」が好きだった
 
+#### 好きな歌手
+- 竹原ピストル
+- 柊人
+- 不可思議/wonderboy
+
 #### 生まれ年
 - 1998
 
@@ -29,6 +34,7 @@ layout: ../layouts/Markdown.astro
 
 #### 座右の銘
 - 人間万事塞翁が馬
+- 無常
 
 #### 信条
 - HRTの精神
