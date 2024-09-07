@@ -4,8 +4,10 @@
     bottom: 0;
     justify-content: center;
 }
-.pagination-number,
-.pagination-button{
+.pagination-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.1rem;
     background-color: transparent;
     border: none;
@@ -16,20 +18,6 @@
     border-radius: .2rem;
     color: #46e311;
 }
-.pagination-number:hover,
-.pagination-button:not(.disabled):hover {
+.pagination-link:not(.disabled):hover {
     background: #1e6e03;
-}
-.pagination-number.active {
-    color: #46e311;
-    background: #1e6e03;
-}
-
-.pagination-hidden {
-    display: none;
-}
-
-.disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
 }

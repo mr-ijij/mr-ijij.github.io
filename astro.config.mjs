@@ -6,5 +6,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: 'https://mr-ijij.github.io',
   integrations: [react(), sitemap()],
-  trailingSlash: "never"
+  trailingSlash: "never",
 });
