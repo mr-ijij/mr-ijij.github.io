@@ -41,3 +41,6 @@ layout: ../layouts/Markdown.astro
 
 #### やりたいこと
 - 色々な知見をもとにした開発体験のデザイン
+
+#### ErrorLog備忘録
+[Error Log](/errorLogs)
