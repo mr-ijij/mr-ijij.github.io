@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 【読書記録】スクラムについて
+title: スクラムについて
 date: 2024-09-29
 tags: ["Agile"]
 ---
