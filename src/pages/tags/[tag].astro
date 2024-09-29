@@ -27,7 +27,6 @@ posts.sort((a, b) => {
 
 
 <App pageTitle={tag}>   
-    <p>Posts tagged with {tag}</p>
     <ul>
         {posts.map((post) => <BlogPost url={post.url} frontmatter={post.frontmatter}/>)}
     </ul>

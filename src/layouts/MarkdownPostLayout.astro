@@ -4,6 +4,12 @@ import App from "./App.astro";
 const { frontmatter } = Astro.props;
 ---
 
+<style is:global>
+  .content a {
+    text-decoration: underline;
+  }
+</style>
+
 <App pageTitle={frontmatter.title} pageDescription={frontmatter.description} pageImage={frontmatter.image}>
   <p>{frontmatter.date ? frontmatter.date.slice(0,10): ""}</p>
   <p><em>{frontmatter.description ? frontmatter.description: ""}</em></p>
@@ -14,7 +20,9 @@ const { frontmatter } = Astro.props;
     ))}
   </div>
 
-  <slot />
+  <article class="content">
+    <slot />
+  </article>
 </App>
 
 <style>
