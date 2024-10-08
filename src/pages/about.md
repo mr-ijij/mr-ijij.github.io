@@ -24,7 +24,6 @@ layout: ../layouts/Markdown.astro
 #### 好きな歌手
 - 竹原ピストル
 - 柊人
-- 不可思議/wonderboy
 
 #### 生まれ年
 - 1998
