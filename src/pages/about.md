@@ -41,5 +41,9 @@ layout: ../layouts/Markdown.astro
 #### やりたいこと
 - 色々な知見をもとにした開発体験のデザイン
 
+
+### その他Log
 #### ErrorLog備忘録
 [Error Log](/errorLogs)
+#### WipLog
+- [Wip Log](/wipLogs)
