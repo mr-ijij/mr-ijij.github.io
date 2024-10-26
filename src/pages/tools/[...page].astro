@@ -1,0 +1,37 @@
+---
+import BlogPost from '../../islands/blogPost/BlogPost.astro';
+import App from '../../layouts/App.astro';
+
+import '../../styles/pagination.css';
+
+const pageTitle = 'ijij tool log';
+const pageDescription = 'Tool Logの保管庫';
+
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await Astro.glob('./*.md');
+  allPosts.sort((a, b) => {
+    const aDate = new Date(a.frontmatter.date);
+    const bDate = new Date(b.frontmatter.date);
+    return bDate.getTime() - aDate.getTime();
+  });
+
+  return paginate(allPosts, {
+    pageSize: 35,
+  })
+}
+
+const { page } = Astro.props;
+---
+
+<App pageTitle={pageTitle} pageDescription={pageDescription}>
+  <ul id="paginated-list">
+
+    {page.data.map(( post ) => <BlogPost url={post.url} frontmatter={post.frontmatter} />)}
+  </ul>
+
+  <nav class="pagination-container">
+    {page.url.prev ? <a href={page.url.prev} class="pagination-link">&lt;</a> : null}
+
+    {page.url.next ? <a href={page.url.next} class="pagination-link">&gt;</a> : null}
+  </nav>
+</App>
