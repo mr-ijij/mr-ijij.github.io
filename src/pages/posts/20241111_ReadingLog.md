@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 【読書記録】うまくてダメな写真お下手だけどいい写真
-date: 2024-10-25
+date: 2024-11-11
 tags: ["Book", "Other"]
 ---
 
